@@ -1,0 +1,20 @@
+Telegram Login Checker Bot
+
+Commands:
+/seturl <LOGIN_URL>     -> Set the target login page
+/addlogin               -> Then send email:password lines
+/check                  -> Test all logins and get Excel file
+
+How to Run:
+1. Install dependencies:
+   pip install -r requirements.txt
+
+2. Edit bot.py and replace YOUR_TELEGRAM_BOT_TOKEN with your token from BotFather.
+
+3. Run the bot:
+   python bot.py
+
+Notes:
+- Works with sites having simple login forms.
+- Captcha-based sites won't work without manual solving.
+- Successful and failed logins are saved in an Excel file.
